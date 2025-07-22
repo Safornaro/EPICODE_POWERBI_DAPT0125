@@ -238,7 +238,7 @@ Questa impostazione permette di trarre insight significativi anche in assenza di
 
 ---
 
-## 🎯 Obiettivo del Report
+## Obiettivo del Report
 
 L'obiettivo di questo report è fornire una panoramica completa e interattiva sul funzionamento della piattaforma e-commerce **Olist**, attraverso l'analisi esplorativa del dataset pubblico disponibile su [Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce).  
 
