@@ -124,5 +124,113 @@ In alto a sinistra sono presenti due pulsanti che consentono di approfondire i d
 
 ---
 
+# Logistics
+
+Questa sezione della dashboard è dedicata all’analisi delle **performance logistiche** relative agli ordini effettuati sulla piattaforma Olist. Vengono monitorati i tempi di spedizione, di consegna e i costi logistici, offrendo una panoramica sia aggregata che dettagliata a livello geografico.
+
+### **KPI principali**
+
+- **Orders**: quantità di ordini ricevuti  
+- **AVG Shipping Time (days)**: media dei giorni impiegati per effettuare la spedizione   
+- **AVG Delivery Time (days)**: media dei giorni impiegati per effettuare la consegna   
+- **AVG Freight Value**: media delle spese di spedizione
+
+### **Grafici**
+
+- **Average Shipping Cost by City**: città con i costi medi di spedizione più elevati.
+- **Average Delivery Time by City**: città con i tempi medi di consegna più lunghi.
+Attraverso due pulsanti è possibile visualizzare i grafici per Stato
+
+- **Average Shipping vs Delivery Time per Month**: confronto mensile tra tempi di spedizione e consegna.
+- **On-Time Delivery Rate**: percentuale di consegne puntuali rispetto a quelle in ritardo.
+- **Order Processing Status**: distribuzione degli ordini nei diversi stati (escluse le consegne concluse e gli ordini cancellati).
+- **AVG Delivery Time (days) of late orders by State**: mappa che mostra i tempi medi di consegna in ritardo, per stato.
+
+### **Filtri disponibili**
+
+Nella barra laterale sinistra è possibile filtrare i dati per:
+
+- **Order Status**
+- **Year**
+- **State**
+
+In alto, due pulsanti consentono di navigare verso pagine di dettaglio:
+
+- **View shipping statistics** → rimanda alla pagina *Shipping Statistics*
+- **View shipping details** → rimanda alla pagina *Shipping Details*
+
+---
+
+## Shipping Statistics
+
+Pagina dedicata alla visualizzazione aggregata delle **statistiche di spedizione per Stato**.
+
+### **Colonne disponibili**
+
+- **State**
+- **Orders**
+- **AVG Shipping Time (day)**
+- **AVG Delivery Time (day)**
+- **AVG Shipping Value**
+- **% Late Deliveries**
+
+### **Filtri disponibili**
+
+- **Year**
+
+---
+
+## Shipping Details
+
+Pagina di dettaglio che mostra **le informazioni logistiche a livello di singolo ordine/prodotto**.
+
+### **Colonne disponibili**
+
+- **Order ID**
+- **Order Item ID**
+- **Freight Value**
+- **Order Status**
+- **Order Date**
+- **Estimated Delivery Date**
+- **Delivered Carrier Date**
+- **Delivered Customer Date**
+
+### **Filtri disponibili**
+
+- **Order ID**
+- **Order Status**
+- **Freight Value**
+- **Order Date Range**
+- **KPI Delivery** (On time / Late)
+
+In fondo alla tabella è visibile il **totale complessivo del valore di spedizione**.
 
 
+# Sellers
+
+In questa sezione viene analizzata la performance dei venditori attivi sulla piattaforma Olist. Considerando che il dataset è **anonimizzato** (i seller ID sono stringhe alfanumeriche casuali), è stata scelta un'impostazione **statistica** anziché nominativa.
+
+### **KPI principali**
+
+- **Active Sellers**: Totale venditori registrati  
+- **AVG Orders per Seller**: la media di ordini processati da ciascun venditore
+- **AVG Revenue per Seller**: la media dei ricavi di ciascun venditore
+- **Median Revenue per Seller**: la mediana dei ricavi di ciascun venditore
+
+### **Grafici**
+
+- **Sales Distribution per Seller**: istogramma che mostra la distribuzione degli importi di vendita per venditore, con evidenziata la media (linea verde) e la mediana (linea rossa).
+- **Orders vs Revenue per Seller**: scatter plot che mostra la correlazione tra numero di ordini e fatturato generato per ciascun venditore.
+- **Sellers Classified as Normal or Outlier**: grafico a barre che mostra la classificazione dei seller in base alla loro performance (normali vs outlier), utile per contare gli outlier.
+
+### **Nota metodologica**
+
+L'approccio adottato consente di:
+
+- Identificare eventuali **outlier** in termini di vendite.
+- Valutare la **distribuzione della performance** economica.
+- Analizzare **correlazioni** tra quantità di ordini gestiti e fatturato.
+
+Questa impostazione permette di trarre insight significativi anche in assenza di nomi o etichette riconoscibili.
+
+---
