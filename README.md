@@ -1,5 +1,22 @@
 # Brazilian E-Commerce Dashboard – Power BI Report
 
+## Indice
+
+- [Introduzione al dataset](#dataset)
+- [Obiettivo del progetto](#obiettivo-del-progetto)
+- [1. Overview](#overview)
+- [2. Orders](#orders)
+- [3. Logistics](#logistics)
+- [4. Sellers](#4sellers)
+- [Obiettivi del report](#obiettivi-del-report)
+- [Insight principali](#insight-principali)
+- [Possibili interventi di miglioramento](#possibili-internventi-di-miglioramento)
+
+
+
+
+
+
 ## Dataset
 
 Il progetto si basa sul **Brazilian E-commerce Public Dataset by Olist**, disponibile su [Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce).  
@@ -274,7 +291,7 @@ Il lavoro è stato realizzato in **Power BI**, con l’integrazione di funzional
 
 ---
 
-# Raccomandazioni e Interventi Possibili
+# Possibili interventi di miglioramento
 Sulla base degli insight emersi dal report, si suggeriscono i seguenti interventi mirati per migliorare le performance della piattaforma Olist:
 
 ## Miglioramento della Customer Satisfaction
