@@ -170,12 +170,12 @@ Pagina dedicata alla visualizzazione aggregata delle **statistiche di spedizione
 
 ### **Colonne disponibili**
 
-- **State**
-- **Orders**
-- **AVG Shipping Time (day)**
-- **AVG Delivery Time (day)**
-- **AVG Shipping Value**
-- **% Late Deliveries**
+- **State**: Stato
+- **Orders**: Quantità di ordini
+- **AVG Shipping Time (day)**: media dei giorni impiegati per effettuare la spedizione
+- **AVG Delivery Time (day)**: media dei giorni impiegati per effettuare la consegna
+- **AVG Shipping Value**: media delle spese di spedizione
+- **% Late Deliveries** : percentuale di ordini consegnati in ritardo
 
 ### **Filtri disponibili**
 
@@ -189,14 +189,14 @@ Pagina di dettaglio che mostra **le informazioni logistiche a livello di singolo
 
 ### **Colonne disponibili**
 
-- **Order ID**
-- **Order Item ID**
-- **Freight Value**
-- **Order Status**
-- **Order Date**
-- **Estimated Delivery Date**
-- **Delivered Carrier Date**
-- **Delivered Customer Date**
+- **Order ID** : ID univoco dell'ordine
+- **Order Item ID** : riga dell'ordine
+- **Freight Value** : spese di spedizione
+- **Order Status**: stato dell'ordine
+- **Order Date**: data dell'ordine
+- **Estimated Delivery Date**: data stimata di consegna dell'ordine
+- **Delivered Carrier Date**: data in cui l'ordine è stato consegnato al corriere
+- **Delivered Customer Date**: data in cui l'ordine è stato consegnato
 
 ### **Filtri disponibili**
 
