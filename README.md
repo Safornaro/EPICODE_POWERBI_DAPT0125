@@ -7,10 +7,10 @@
 - [1. Overview](#overview)
 - [2. Orders](#orders)
 - [3. Logistics](#logistics)
-- [4. Sellers](#4sellers)
-- [Obiettivi del report](#obiettivi-del-report)
+- [4. Sellers](#sellers)
+- [Obiettivo del report](#obiettivo-del-report)
 - [Insight principali](#insight-principali)
-- [Possibili interventi di miglioramento](#possibili-internventi-di-miglioramento)
+- [Possibili interventi di miglioramento](#possibili-interventi-di-miglioramento)
 
 
 
